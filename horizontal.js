@@ -58,7 +58,7 @@ module.exports = function (el, config = {}) {
       state: 'EL_LEFT_TRUNCATED'
     }
   } else if (elemLeft >= leftBound && elemRight > rightBound) {
-    // Right of element is trunctaed
+    // Right of element is truncated
     return {
       value: (activeViewportWidth - elemLeft) / elemWidth,
       state: 'EL_RIGHT_TRUNCATED'

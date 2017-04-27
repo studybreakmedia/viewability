@@ -58,7 +58,7 @@ module.exports = function (el, config = {}) {
       state: 'EL_TOP_TRUNCATED'
     }
   } else if (elemTop >= topBound && elemBottom > bottomBound) {
-    // Bottom of element is trunctaed
+    // Bottom of element is truncated
     return {
       value: (activeViewportHeight - elemTop) / elemHeight,
       state: 'EL_BOTTOM_TRUNCATED'
